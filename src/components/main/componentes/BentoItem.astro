@@ -1,0 +1,17 @@
+---
+interface Props {
+  title: string;
+  subtitle?: string;
+  class?: string;
+}
+
+const { title, subtitle } = Astro.props;
+import "./bentoItem.css";
+---
+
+<article class={`${Astro.props.class} item`}>
+  <slot name="image" />
+  <h2>{title}</h2>
+  {subtitle && <h3>{subtitle}</h3>}
+  <slot name="content" />
+</article>

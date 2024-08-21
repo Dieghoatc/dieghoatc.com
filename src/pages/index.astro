@@ -1,0 +1,17 @@
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+import Header from "../components/header/Header.astro";
+import Main from "../components/main/Main.astro";
+
+export function getStaticPaths() {
+  return [{ params: { p: "blog" } }, { params: { p: "work" } }];
+}
+
+const { p } = Astro.params;
+console.log(p);
+---
+
+<SiteLayout title="Dieghoatc">
+  <Header />
+  <Main />
+</SiteLayout>

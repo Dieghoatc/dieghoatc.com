@@ -1,0 +1,57 @@
+---
+import BentoItem from "./componentes/BentoItem.astro";
+import { Image } from "astro:assets";
+import girld_ia from "../../assets/girl_version.png";
+
+import "./main.css";
+---
+
+<script>
+  import { scrollBlur } from "./main";
+  scrollBlur();
+</script>
+
+<main class="main_container">
+  <div class="projects_section" id="projects_section">
+    <h3>Proyectos</h3>
+    <Image src={girld_ia} alt="Diego version mujer con ia" />
+  </div>
+  <div>
+    <section class="bento_section">
+      <div class="bento_list">
+        <BentoItem
+          class="first_bento"
+          title="Autobusesdecolombia.com"
+          subtitle="Agosto - 2024"
+        >
+          <p slot="content">
+            Es una pagina web donde descubriras la mayor comunidad de
+            aficionados a los autobuses en Colombia. Noticias, fotos, historias
+            y eventos sobre el apasionante mundo del transporte público.
+          </p></BentoItem
+        >
+        <BentoItem class="second_bento" title="AbreYa - APP" subtitle="2024">
+          <p slot="content">
+            Es una aplicación web, donde se ofrece el servicio de apertura de
+            cerraduras de viviendas y viehículos.
+          </p>
+        </BentoItem>
+        <BentoItem class="third_bento" title="AsistMedica - App" subtitle="2024"
+          ><p slot="content">
+            Aplicación web donde podrás solicitar asistencia médica a domicilio.
+          </p>
+        </BentoItem>
+        <BentoItem
+          class="fourth_bento"
+          title="Factura Eléctronica"
+          subtitle="2025"
+        >
+          <p slot="content">
+            Api, para consultar la pagina de la Dian para las facturas
+            eléctronicas
+          </p></BentoItem
+        >
+      </div>
+    </section>
+  </div>
+</main>

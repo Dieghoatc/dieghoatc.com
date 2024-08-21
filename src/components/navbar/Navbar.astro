@@ -1,0 +1,48 @@
+---
+import Logo from "./Logo.astro";
+import "./navbar.css";
+---
+
+<nav class="navbar" id="inicio">
+  <div class="navbar_container">
+    <div class="logo_container">
+      <Logo />
+    </div>
+    <ul class="navbar_list">
+      <li><a href="/">Inicio</a></li>
+      <li><a href="#projects_section">Proyectos</a></li>
+      <li><a href="#">Trabajo</a></li>
+      <li><a href="/tech-test">Pruebas/Tec</a></li>
+      <li><a href="/blog">Blog</a></li>
+    </ul>
+
+    <div class="hamburger_icon" id="hamburger_icon">
+      <div class="toggle_bar_one" id="toggle_bar_one"></div>
+      <div class="toggle_bar_two" id="toggle_bar_two"></div>
+    </div>
+
+    <div class="hamburguer_menu hamburguer_menu_hidden" id="hamburguer_menu">
+      <ul id="list_menu">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="#projects_section">Proyectos</a></li>
+        <li><a href="#">Trabajo</a></li>
+        <li><a href="/tech-test">Pruebas/Tec</a></li>
+        <li><a href="/blog">Blog</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  import { hamburguerMenu } from "./hamburgerMenu";
+
+  const htmlElements = {
+    hamburgerIcon: document.getElementById("hamburger_icon"),
+    hamburguerMenuList: document.getElementById("hamburguer_menu"),
+    toogleBarOne: document.getElementById("toggle_bar_one"),
+    toogleBarTwo: document.getElementById("toggle_bar_two"),
+    listMenu: document.getElementById("list_menu"),
+  };
+
+  hamburguerMenu(htmlElements);
+</script>

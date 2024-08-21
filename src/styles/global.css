@@ -1,0 +1,17 @@
+:root {
+  --bg-color: #000;
+  --bg-secondary-color: #141414;
+  --text-color: #fff;
+  --primary-color: #d1b000;
+  --secundary-color: #d1b2004d;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: #fff;
+  letter-spacing: 2px;
+  font-family: "Bangers", system-ui;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0;
+}

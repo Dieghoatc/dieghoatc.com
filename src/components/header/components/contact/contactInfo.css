@@ -1,0 +1,33 @@
+.contact_info_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  z-index: 3;
+}
+.linkedin svg {
+  height: 31px;
+  height: 31px;
+  fill: var(--primary-color);
+}
+.github svg {
+  height: 31px;
+  height: 31px;
+  fill: var(--primary-color);
+}
+
+.curriculum_vitae a {
+  color: var(--bg-color);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.curriculum_vitae_link {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  width: 31px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

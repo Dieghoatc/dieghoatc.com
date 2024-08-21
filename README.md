@@ -1,47 +1,20 @@
-# Astro Starter Kit: Minimal
+# Bienvenido a Mi Sitio Web Personal de Desarrollador de Software
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Hola, soy un desarrollador de software con experiencia en la creación de aplicaciones web modernas y escalables. Este sitio está diseñado para mostrar mi portafolio, habilidades y proyectos recientes. Aquí podrás encontrar más información sobre mi trabajo, tecnologías que manejo, y cómo puedo ayudarte a construir soluciones digitales efectivas.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## Tecnologías que Uso
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- **Next.js**: Utilizo Next.js para construir aplicaciones web rápidas y optimizadas, con un enfoque en el rendimiento y la facilidad de desarrollo.
+- **NestJS**: Empleo NestJS para desarrollar aplicaciones backend robustas y mantenibles, aprovechando su arquitectura modular y soporte para TypeScript.
+- **Astro**: Este sitio web está desarrollado en Astro, una herramienta moderna que me permite crear sitios web estáticos ultra rápidos, ideales para portafolios y blogs.
 
-## 🚀 Project Structure
+## Proyectos Destacados
 
-Inside of your Astro project, you'll see the following folders and files:
+Aquí puedes ver algunos de mis proyectos más recientes, donde he aplicado estas tecnologías para resolver problemas reales y ofrecer soluciones innovadoras.
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Contacto
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Si te interesa colaborar o simplemente quieres decir hola, no dudes en contactarme.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Gracias por visitar mi sitio web. ¡Espero que encuentres algo que te inspire!
 
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
